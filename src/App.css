@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  display: flex;
 }
 
 .App-logo {
@@ -22,10 +23,43 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  flex: 1;
+  padding: 20px;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.Main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.Navbar-container {
+  width: 200px;
+  background: #282c34;
+  display: flex;
+  flex-direction: column;
+}
+
+.Rusty-text {
+  color: #c45508;
+}
+
+.Sidebar {
+  width: 200px;
+  background: #282c34;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
 }
 
 @keyframes App-logo-spin {
