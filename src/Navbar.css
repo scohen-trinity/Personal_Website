@@ -8,9 +8,11 @@
     padding: 10px;
     color:bisque;
     border: None;
-    
-}
+    transition: transform 0.3s ease;
+}    
+
 
 .container li:hover {
     color: #c45508;
+    transform: translateX(10px);
 }
