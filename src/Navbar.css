@@ -3,16 +3,27 @@
     justify-content: space-between;
     flex-direction: column;
     list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 .container li {
     padding: 10px;
     color:bisque;
-    border: None;
+    border-bottom: 1px solid #c45508;
     transition: transform 0.3s ease;
+    background-color: #2b323f;
+    margin: 0;
 }    
-
 
 .container li:hover {
     color: #c45508;
     transform: translateX(10px);
+    background-color: #212630;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
