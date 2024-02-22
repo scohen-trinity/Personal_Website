@@ -37,6 +37,13 @@
   display: flex;
 }
 
+.Content-container {
+  width: 100%;
+  background: #282c34;
+  display: flex;
+  flex-direction: column;
+}
+
 .Main-content {
   flex: 1;
   padding: 20px;
