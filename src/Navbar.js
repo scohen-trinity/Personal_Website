@@ -1,6 +1,6 @@
 import React from 'react';
-import './Navbar.css';
-import './App.css';
+import './stylesheets/Navbar.css';
+import './stylesheets/App.css';
 
 function scrollToSection(sectionId) {
     const section = document.getElementById(sectionId);

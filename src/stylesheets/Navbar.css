@@ -9,17 +9,17 @@
 }
 .container li {
     padding: 10px;
-    color:bisque;
-    border-bottom: 1px solid #c45508;
+    color:#EFC88B;
+    /* border-bottom: 1px solid #c45508; */
     transition: transform 0.3s ease;
-    background-color: #2b323f;
+    /* background-color: #2b323f; */
     margin: 0;
 }    
 
 .container li:hover {
-    color: #c45508;
+    color: #CF5C36;
     transform: translateX(10px);
-    background-color: #212630;
+    /* background-color: #212630; */
 }
 
 .navbar {

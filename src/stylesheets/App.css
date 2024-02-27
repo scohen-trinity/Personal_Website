@@ -15,7 +15,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* #282c34 */
+  background-color: #050517;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -50,8 +51,9 @@
 }
 
 .Navbar-container {
+  /* #2b323f */
   width: 200px;
-  background: #2b323f;
+  background: #0B0B23;
   display: flex;
   flex-direction: column;
 }
