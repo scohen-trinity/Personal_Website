@@ -1,53 +1,30 @@
-import logo from './logo.svg';
 import './stylesheets/App.css';
-import Navbar from './Navbar';
-import React from 'react';
+import Navbar from './components/Navbar';
+import About from './components/About';
+import Contact from './components/Contact';
+import Education from './components/Education';
+import Projects from './components/Projects';
+import React, { useEffect, useState } from 'react';
 
 function App() {
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsExpanded(true);
+    }, 500);
+  }, []);
+
   return (
     <div className="App">
       <div className='Navbar-container'>
         <Navbar className='sidebar' />
       </div>
       <div className='Content-container'>
-        <section id='about'>
-          <div className="App-header">
-            <h1 className="Rusty-text">Sam Cohen</h1>
-            <img src={logo} className="App-logo" alt="logo" />
-            <p>
-              Edit <code>src/App.js</code> and save to reload.
-            </p>
-            <a
-              className="App-link"
-              href="https://reactjs.org"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learn React
-            </a>
-          </div>
-        </section>
-        <section id='projects'>
-          <div className='App-header'>
-            <h1 className='Rusty-text'>
-              Projects
-            </h1>
-          </div>
-        </section>
-        <section id='education'>
-          <div className='App-header'>
-            <h1 className='Rusty-text'>
-              Education
-            </h1>
-          </div>
-        </section>
-        <section id='contact'>
-          <div className='App-header'>
-            <h1 className='Rusty-text'>
-              Contact Section Content
-            </h1>
-          </div>
-        </section>
+        <About />
+        <Projects />
+        <Education />
+        <Contact />
       </div>
     </div>
   );
