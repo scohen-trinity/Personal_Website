@@ -1,6 +1,7 @@
 import React from 'react';
 import '../stylesheets/App.css';
 import '../stylesheets/Contact.css';
+// import LinkedInIcon from '../../public/linkedin.svg';
 
 const Contact = () => {
     return (
@@ -10,9 +11,9 @@ const Contact = () => {
               Contact Me
             </h1>
             <div className='contact-container'>
-                <p>Github</p>
-                <p>LinkedIn</p>
-                <p>Email</p>
+                <div className='contact-item'><img src='/github.svg' alt='github' />Github</div>
+                <div className='contact-item'><img src='/linkedin.svg' alt='linkedin' />LinkedIn</div>
+                <div className='contact-item'><img src='/email.svg' alt='email' />Email</div>
             </div>
           </div>
         </section>
