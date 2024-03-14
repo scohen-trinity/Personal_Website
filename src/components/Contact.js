@@ -11,9 +11,9 @@ const Contact = () => {
               Contact Me
             </h1>
             <div className='contact-container'>
-                <div className='contact-item'><img src='/github.svg' alt='github' />Github</div>
-                <div className='contact-item'><img src='/linkedin.svg' alt='linkedin' />LinkedIn</div>
-                <div className='contact-item'><img src='/email.svg' alt='email' />Email</div>
+                <div className='contact-item'><img src='/github.svg' alt='github' className='contact-image' /></div>
+                <div className='contact-item'><img src='/linkedin.svg' alt='linkedin' className='contact-image' /></div>
+                <div className='contact-item'><img src='/email.svg' alt='email' className='contact-image' /></div>
             </div>
           </div>
         </section>
