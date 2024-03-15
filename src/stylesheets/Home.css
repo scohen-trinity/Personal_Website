@@ -1,0 +1,46 @@
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 30%;
+}
+
+.contact-item {
+    padding: 10px;
+}
+
+.email-image {
+    width: 25px;
+    height: 25px;
+    transition: transition 0.3s;
+}
+
+.email-image:hover {
+    content: url("/email-blue.svg");
+}
+
+.github-image {
+    width: 25px;
+    height: 25px;
+    transition: transition 0.3s;
+}
+
+.github-image:hover {
+    content: url("/github-blue.svg");
+}
+
+.linkedin-image {
+    width: 25px;
+    height: 25px;
+    transition: transition 0.3s;
+}
+
+.linkedin-image:hover {
+    content: url("/linkedin-blue.svg");
+}
+
+.rusty-header {
+    font-size: 90px;
+    color: #cf5c36;
+    margin: 0;
+}

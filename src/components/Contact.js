@@ -1,7 +1,6 @@
 import React from 'react';
 import '../stylesheets/App.css';
 import '../stylesheets/Contact.css';
-// import LinkedInIcon from '../../public/linkedin.svg';
 
 const Contact = () => {
     return (

@@ -4,6 +4,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Education from './components/Education';
 import Projects from './components/Projects';
+import Home from './components/Home';
 import React, { useEffect, useState } from 'react';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Navbar className='sidebar' />
       </div>
       <div className='Content-container'>
+        <Home />
         <About />
         <Projects />
         <Education />
