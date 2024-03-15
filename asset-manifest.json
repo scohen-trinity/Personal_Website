@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/scohen-webpage/static/css/main.6035c8f7.chunk.css",
-    "main.js": "/scohen-webpage/static/js/main.a33b2c19.chunk.js",
-    "main.js.map": "/scohen-webpage/static/js/main.a33b2c19.chunk.js.map",
-    "runtime~main.js": "/scohen-webpage/static/js/runtime~main.95c99bbb.js",
-    "runtime~main.js.map": "/scohen-webpage/static/js/runtime~main.95c99bbb.js.map",
-    "static/js/2.0e1e2b54.chunk.js": "/scohen-webpage/static/js/2.0e1e2b54.chunk.js",
-    "static/js/2.0e1e2b54.chunk.js.map": "/scohen-webpage/static/js/2.0e1e2b54.chunk.js.map",
-    "static/js/3.ba8b7f13.chunk.js": "/scohen-webpage/static/js/3.ba8b7f13.chunk.js",
-    "static/js/3.ba8b7f13.chunk.js.map": "/scohen-webpage/static/js/3.ba8b7f13.chunk.js.map",
+    "main.css": "/scohen-webpage/static/css/main.2b9094f0.chunk.css",
+    "main.js": "/scohen-webpage/static/js/main.f9c8e085.chunk.js",
+    "main.js.map": "/scohen-webpage/static/js/main.f9c8e085.chunk.js.map",
+    "runtime~main.js": "/scohen-webpage/static/js/runtime~main.bc783581.js",
+    "runtime~main.js.map": "/scohen-webpage/static/js/runtime~main.bc783581.js.map",
+    "static/js/2.29752339.chunk.js": "/scohen-webpage/static/js/2.29752339.chunk.js",
+    "static/js/2.29752339.chunk.js.map": "/scohen-webpage/static/js/2.29752339.chunk.js.map",
+    "static/js/3.177faaa1.chunk.js": "/scohen-webpage/static/js/3.177faaa1.chunk.js",
+    "static/js/3.177faaa1.chunk.js.map": "/scohen-webpage/static/js/3.177faaa1.chunk.js.map",
     "index.html": "/scohen-webpage/index.html",
-    "precache-manifest.4b90d1e00041ce99334139ba24675607.js": "/scohen-webpage/precache-manifest.4b90d1e00041ce99334139ba24675607.js",
+    "precache-manifest.013107b92b85899b2c85c89f42c65a3d.js": "/scohen-webpage/precache-manifest.013107b92b85899b2c85c89f42c65a3d.js",
     "service-worker.js": "/scohen-webpage/service-worker.js",
-    "static/css/main.6035c8f7.chunk.css.map": "/scohen-webpage/static/css/main.6035c8f7.chunk.css.map",
+    "static/css/main.2b9094f0.chunk.css.map": "/scohen-webpage/static/css/main.2b9094f0.chunk.css.map",
     "static/media/logo.svg": "/scohen-webpage/static/media/logo.06e73328.svg"
   }
 }
