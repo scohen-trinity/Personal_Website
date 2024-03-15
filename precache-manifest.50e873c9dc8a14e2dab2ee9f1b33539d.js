@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5ff775d36cfc85d5be7099bb23b3e8e5",
+    "revision": "5d3f9f716e9c09cd46ba66425a6a7991",
     "url": "/scohen-webpage/index.html"
   },
   {
-    "revision": "453bb381701397df8fdd",
-    "url": "/scohen-webpage/static/css/main.d2baa0ac.chunk.css"
+    "revision": "192fcff97a862ad48d93",
+    "url": "/scohen-webpage/static/css/main.a855d242.chunk.css"
   },
   {
     "revision": "41720c6a4d6c359f86c6",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/scohen-webpage/static/js/3.177faaa1.chunk.js"
   },
   {
-    "revision": "453bb381701397df8fdd",
+    "revision": "192fcff97a862ad48d93",
     "url": "/scohen-webpage/static/js/main.444ce8a7.chunk.js"
   },
   {
@@ -28,12 +28,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/scohen-webpage/static/media/email-blue.67b925f0.svg"
   },
   {
+    "revision": "1abb0fcbc7f6909b6f607f331e24a8ee",
+    "url": "/scohen-webpage/static/media/email.1abb0fcb.svg"
+  },
+  {
     "revision": "1bde986fde8bb7adeaa061a8a874b7f1",
     "url": "/scohen-webpage/static/media/github-blue.1bde986f.svg"
   },
   {
+    "revision": "2ef22b46d8ce30c6cad469f0a54b3a4d",
+    "url": "/scohen-webpage/static/media/github.2ef22b46.svg"
+  },
+  {
     "revision": "760f5c7dec0ca79a99669e14325de95a",
     "url": "/scohen-webpage/static/media/linkedin-blue.760f5c7d.svg"
+  },
+  {
+    "revision": "aaff6f98c41a20dd692eeff6f0ca256c",
+    "url": "/scohen-webpage/static/media/linkedin.aaff6f98.svg"
   },
   {
     "revision": "06e733283fa43d1dd57738cfc409adbd",
