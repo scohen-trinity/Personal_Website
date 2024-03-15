@@ -10,9 +10,9 @@ const Contact = () => {
               Contact Me
             </h1>
             <div className='contact-container'>
-                <div className='contact-item'><img src='/github.svg' alt='github' className='contact-image' /></div>
-                <div className='contact-item'><img src='/linkedin.svg' alt='linkedin' className='contact-image' /></div>
-                <div className='contact-item'><img src='/email.svg' alt='email' className='contact-image' /></div>
+                <div className='contact-item'><img src='../github.svg' alt='github' className='contact-image' /></div>
+                <div className='contact-item'><img src='../linkedin.svg' alt='linkedin' className='contact-image' /></div>
+                <div className='contact-item'><img src='../email.svg' alt='email' className='contact-image' /></div>
             </div>
           </div>
         </section>
