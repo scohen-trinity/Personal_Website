@@ -4,7 +4,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 5vmin;
   pointer-events: none;
 }
 
@@ -60,6 +60,7 @@
 
 .Rusty-text {
   color: #cf5c36;
+  margin: 0;
 }
 
 .Sidebar {
@@ -69,6 +70,10 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+}
+
+.silver-text {
+  color: #d3d5d7;
 }
 
 @keyframes App-logo-spin {
