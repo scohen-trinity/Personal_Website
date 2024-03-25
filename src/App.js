@@ -5,17 +5,9 @@ import Contact from './components/Contact';
 import Education from './components/Education';
 import Projects from './components/Projects';
 import Home from './components/Home';
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 
 function App() {
-  const [isExpanded, setIsExpanded] = useState(false);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setIsExpanded(true);
-    }, 500);
-  }, []);
-
   return (
     <div className="App">
       <div className='Navbar-container'>

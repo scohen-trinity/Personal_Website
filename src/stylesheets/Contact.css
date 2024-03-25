@@ -9,13 +9,50 @@
     padding: 10px;
 }
 
-.contact-image {
+/* .contact-image {
     width: 50px;
     height: 50px;
     transition: transition 0.3s;
+    src: url("../email.svg");
 }
 
 .contact-image:hover {
     transform: scale(1.5);
-    color: #d3d5d7;
+    src: url("../email.svg");
+} */
+
+.email-image {
+    width: 25px;
+    height: 25px;
+    transition: transition 0.3s;
+    content: url("../email.svg");
+}
+
+.email-image:hover {
+    transform: scale(1.5);
+    /* content: url("../email.svg"); */
+}
+
+.github-image {
+    width: 25px;
+    height: 25px;
+    transition: transition 0.3s;
+    content: url("../github.svg");
+}
+
+.github-image:hover {
+    transform: scale(1.5);
+    /* content: url("../github-blue.svg"); */
+}
+
+.linkedin-image {
+    width: 25px;
+    height: 25px;
+    transition: transition 0.3s;
+    content: url("../linkedin.svg");
+}
+
+.linkedin-image:hover {
+    transform: scale(1.5);
+    /* content: url("../linkedin-blue.svg"); */
 }
