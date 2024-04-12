@@ -2,10 +2,10 @@ import './stylesheets/App.css';
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Contact from './components/Contact';
-import Education from './components/Education';
 import Projects from './components/Projects';
 import Home from './components/Home';
 import React from 'react';
+import Experience from './components/Experience';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         <Home />
         <About />
         <Projects />
-        <Education />
+        <Experience />
         <Contact />
       </div>
     </div>

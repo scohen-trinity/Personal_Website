@@ -6,9 +6,9 @@ const Contact = () => {
     return (
         <section id='contact'>
           <div className='App-header'>
-            <h1 className='Rusty-text'>
-              Contact Me
-            </h1>
+            <h5 className='Rusty-text'>
+              Contact
+            </h5>
             <div className='contact-container'>
                 <div className='contact-item'><a href='https://github.com/scohen-trinity'><img src='../github.svg' alt='github' className='github-image' /></a></div>
                 <div className='contact-item'><a href='https://www.linkedin.com/in/samuel-cohen-a82434251'><img src='../linkedin.svg' alt='linkedin' className='linkedin-image' /></a></div>
