@@ -2,3 +2,27 @@
     display: flex;
     flex-direction: column;
 }
+
+.job-block {
+    display: flex;
+    flex-direction: row;
+}
+
+.job-title {
+    padding: 10vb;
+}
+
+.job-icon {
+    padding: 10vb;
+    align-content: center;
+}
+
+.job-image {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.job-description {
+    padding: 10vb;
+}

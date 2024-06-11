@@ -6,6 +6,7 @@
     width: 100%;
     margin: 0;
     padding: 0;
+    padding-bottom: 50vh;
 }
 .container li {
     padding: 10px;
@@ -24,7 +25,7 @@
 
 .made-with-react {
     color: #d3d5d7;
-    padding-top: 300px;
+    /* padding-top: 50vh; */
     height: 10px;
 }
 
