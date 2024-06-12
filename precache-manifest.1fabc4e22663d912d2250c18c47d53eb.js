@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d7ac666d4227083183d1dea350e763aa",
+    "revision": "5810e7056e83acd96fb5dc84f96e10dd",
     "url": "/scohen-webpage/index.html"
   },
   {
-    "revision": "035f5c290a3d7e951ce6",
+    "revision": "287d7ff535d03fb75990",
     "url": "/scohen-webpage/static/css/main.17e94ef8.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/scohen-webpage/static/js/3.7426b29a.chunk.js"
   },
   {
-    "revision": "035f5c290a3d7e951ce6",
-    "url": "/scohen-webpage/static/js/main.4b920915.chunk.js"
+    "revision": "287d7ff535d03fb75990",
+    "url": "/scohen-webpage/static/js/main.b6462030.chunk.js"
   },
   {
     "revision": "2e8d103406ea6a42a294",
