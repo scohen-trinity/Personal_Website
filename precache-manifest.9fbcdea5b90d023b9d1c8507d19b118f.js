@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8f3741a082f223057256514e729f30d3",
+    "revision": "d7ac666d4227083183d1dea350e763aa",
     "url": "/scohen-webpage/index.html"
   },
   {
-    "revision": "c98b012ccdcb3058b85b",
-    "url": "/scohen-webpage/static/css/main.4373b0ac.chunk.css"
+    "revision": "035f5c290a3d7e951ce6",
+    "url": "/scohen-webpage/static/css/main.17e94ef8.chunk.css"
   },
   {
     "revision": "41720c6a4d6c359f86c6",
     "url": "/scohen-webpage/static/js/2.29752339.chunk.js"
   },
   {
-    "revision": "c87ae3f2a437a1b2df8d",
-    "url": "/scohen-webpage/static/js/3.177faaa1.chunk.js"
+    "revision": "ba0bfa8f95d9766194b5",
+    "url": "/scohen-webpage/static/js/3.7426b29a.chunk.js"
   },
   {
-    "revision": "c98b012ccdcb3058b85b",
-    "url": "/scohen-webpage/static/js/main.99b6e93e.chunk.js"
+    "revision": "035f5c290a3d7e951ce6",
+    "url": "/scohen-webpage/static/js/main.4b920915.chunk.js"
   },
   {
-    "revision": "7b2be5c2a7f02a89d437",
-    "url": "/scohen-webpage/static/js/runtime~main.bc783581.js"
+    "revision": "2e8d103406ea6a42a294",
+    "url": "/scohen-webpage/static/js/runtime~main.a129232a.js"
   },
   {
     "revision": "67b925f01ae80adde8a15fbe14029e7f",
