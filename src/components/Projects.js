@@ -10,9 +10,9 @@ const Projects = () => {
             <h5 className='Rusty-text'>Projects</h5>
             <h1 className='silver-text'>Check out what I've made!</h1>
             <div className='grid-container'>
-              <div className='grid-item'>My portfolio</div>
-              <div className='grid-item'>Line Counter in Rust</div>
-              <div className='grid-item'>Project 3</div>
+              <div className='grid-item'><a href='https://github.com/scohen-trinity/scohen-webpage'>My portfolio</a></div>
+              <div className='grid-item'><a href='https://github.com/scohen-trinity/rcloc'>Line Counter in Rust</a></div>
+              <div className='grid-item'><a href='https://github.com/scohen-trinity/blist'>Blist</a></div>
             </div>
           </div>
         </section>

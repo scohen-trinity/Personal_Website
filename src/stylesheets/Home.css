@@ -9,39 +9,6 @@
     padding: 10px;
 }
 
-.email-image {
-    width: 25px;
-    height: 25px;
-    transition: transition 0.3s;
-    content: url("../email.svg");
-}
-
-.email-image:hover {
-    content: url("../email-blue.svg");
-}
-
-.github-image {
-    width: 25px;
-    height: 25px;
-    transition: transition 0.3s;
-    content: url("../github.svg");
-}
-
-.github-image:hover {
-    content: url("../github-blue.svg");
-}
-
-.linkedin-image {
-    width: 25px;
-    height: 25px;
-    transition: transition 0.3s;
-    content: url("../linkedin.svg");
-}
-
-.linkedin-image:hover {
-    content: url("../linkedin-blue.svg");
-}
-
 .rusty-header {
     font-size: 90px;
     color: #cf5c36;

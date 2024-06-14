@@ -1,6 +1,5 @@
 import React from 'react';
-import '../stylesheets/App.css';
-// import '../stylesheets/Contact.css';
+import '../stylesheets/Contact.css';
 
 const Contact = () => {
     return (
@@ -9,11 +8,23 @@ const Contact = () => {
             <h5 className='Rusty-text'>
               Contact
             </h5>
-            <div className='contact-container'>
-                <div className='contact-item'><a href='https://github.com/scohen-trinity'><img src='../github.svg' alt='github' className='github-image' /></a></div>
-                <div className='contact-item'><a href='https://www.linkedin.com/in/samuel-cohen-a82434251'><img src='../linkedin.svg' alt='linkedin' className='linkedin-image' /></a></div>
-                <div className='contact-item'><a href='mailto:scohen@trinity.edu'><img src='../email.svg' alt='email' className='email-image' /></a></div>
-            </div>
+            <ul className='contact-bar'>
+              <li>
+                <a href='https://github.com/scohen-trinity'>
+                  <i className='fa fa-github'></i>
+                </a>
+              </li>
+              <li>
+                <a href='https://www.linkedin.com/in/samuel-cohen-a82434251'>
+                  <i className="fa-brands fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a href='mailto:scohencs@gmail.com'>
+                  <i className="fa-solid fa-envelope"></i>
+                </a>
+              </li>
+            </ul>
           </div>
         </section>
     );

@@ -1,7 +1,6 @@
 import React from 'react';
 import '../stylesheets/Navbar.css';
 import '../stylesheets/App.css';
-import logo from '../logo.svg';
 
 function scrollToSection(sectionId) {
     const section = document.getElementById(sectionId);
@@ -20,7 +19,7 @@ const Navbar = () => {
             </ul>
             <div className='made-with-react'>
                 <div className='made-with-react-container'>
-                    <img src={logo} className="App-logo" alt="logo" />
+                    <img src="./logo512.png" className="App-logo" alt="logo" />
                     <p>React</p>
                 </div>  
             </div>

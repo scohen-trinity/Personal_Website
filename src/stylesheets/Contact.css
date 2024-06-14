@@ -1,58 +1,22 @@
-.contact-container {
+.contact-bar {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 60%;
+    list-style-type: none;
+    margin: 24px 0;
+    padding: 0;
+    font-size: 30px;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
 }
 
-.contact-item {
-    padding: 10px;
+.contact-bar li {
+    display: inline-block;
+    margin: 0 30px;
 }
 
-/* .contact-image {
-    width: 50px;
-    height: 50px;
-    transition: transition 0.3s;
-    src: url("../email.svg");
+.contact-bar li a {
+    color: #fff;
 }
 
-.contact-image:hover {
-    transform: scale(1.5);
-    src: url("../email.svg");
-} */
-
-.email-image {
-    width: 25px;
-    height: 25px;
-    transition: transition 0.3s;
-    content: url("../email.svg");
-}
-
-.email-image:hover {
-    transform: scale(1.5);
-    /* content: url("../email.svg"); */
-}
-
-.github-image {
-    width: 25px;
-    height: 25px;
-    transition: transition 0.3s;
-    content: url("../github.svg");
-}
-
-.github-image:hover {
-    transform: scale(1.5);
-    /* content: url("../github-blue.svg"); */
-}
-
-.linkedin-image {
-    width: 25px;
-    height: 25px;
-    transition: transition 0.3s;
-    content: url("../linkedin.svg");
-}
-
-.linkedin-image:hover {
-    transform: scale(1.5);
-    /* content: url("../linkedin-blue.svg"); */
+.contact-bar li a:hover {
+    color: aqua;
 }
