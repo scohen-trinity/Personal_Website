@@ -10,6 +10,7 @@ const Experience = () => {
             <h5 className='Rusty-text'>
               Experience
             </h5>
+            <h1 className='silver-text'>Here's where I have worked</h1>
             <div className='experience-list'>
               {/* Econtrols Section */}
               <div className='job-block'>

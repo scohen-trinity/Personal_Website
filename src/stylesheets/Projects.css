@@ -1,12 +1,18 @@
-.grid-container {
+.projects-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 20px;
     flex-direction: row;
 }
 
-.grid-item {
+.project-item {
     background-color: #ccc;
     padding: 20px;
     text-align: center;
+    overflow: hidden;
+}
+
+.project-item img {
+    height: 245px;
+    width: 245px;
 }
