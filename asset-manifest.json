@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/scohen-webpage/static/css/main.5f9fffdd.chunk.css",
-    "main.js": "/scohen-webpage/static/js/main.a01c6d01.chunk.js",
-    "main.js.map": "/scohen-webpage/static/js/main.a01c6d01.chunk.js.map",
+    "main.css": "/scohen-webpage/static/css/main.90792303.chunk.css",
+    "main.js": "/scohen-webpage/static/js/main.3008abbd.chunk.js",
+    "main.js.map": "/scohen-webpage/static/js/main.3008abbd.chunk.js.map",
     "runtime~main.js": "/scohen-webpage/static/js/runtime~main.a129232a.js",
     "runtime~main.js.map": "/scohen-webpage/static/js/runtime~main.a129232a.js.map",
     "static/js/2.ac397db4.chunk.js": "/scohen-webpage/static/js/2.ac397db4.chunk.js",
@@ -10,8 +10,8 @@
     "static/js/3.7426b29a.chunk.js": "/scohen-webpage/static/js/3.7426b29a.chunk.js",
     "static/js/3.7426b29a.chunk.js.map": "/scohen-webpage/static/js/3.7426b29a.chunk.js.map",
     "index.html": "/scohen-webpage/index.html",
-    "precache-manifest.6f7755d04465508bc727c595bbc7ba34.js": "/scohen-webpage/precache-manifest.6f7755d04465508bc727c595bbc7ba34.js",
+    "precache-manifest.4266211fc4826f43c5fc267694c5db39.js": "/scohen-webpage/precache-manifest.4266211fc4826f43c5fc267694c5db39.js",
     "service-worker.js": "/scohen-webpage/service-worker.js",
-    "static/css/main.5f9fffdd.chunk.css.map": "/scohen-webpage/static/css/main.5f9fffdd.chunk.css.map"
+    "static/css/main.90792303.chunk.css.map": "/scohen-webpage/static/css/main.90792303.chunk.css.map"
   }
 }
