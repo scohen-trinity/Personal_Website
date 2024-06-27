@@ -1,49 +1,83 @@
-.container {
+/* sections container */
+.sections-container {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    flex-direction: column;
     list-style: none;
     width: 100%;
     margin: 0;
     padding: 0;
-    padding-bottom: 50vh;
 }
-.container li {
-    padding: 10px;
+
+/* section li behavior */
+.sections-container li {
+    padding: 1ch;
     color:#EFC88B;
-    /* border-bottom: 1px solid #c45508; */
     transition: transform 0.3s ease;
-    /* background-color: #2b323f; */
     margin: 0;
 }    
 
-.container li:hover {
+.sections-container li:hover {
     color: #CF5C36;
     transform: translateX(10px);
-    /* background-color: #212630; */
 }
 
-.made-with-react {
-    color: #d3d5d7;
-    /* padding-top: 50vh; */
-    height: 10px;
-}
-
-.made-with-react-container {
-    background-color: black;
+/* sidebar container */
+.sidebar-container {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    border-radius: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.navbar {
-    position: sticky;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+}
+
+.sidebar {
+    width: 80%;
+    height: 100%;
+    position: fixed;
+    top: 2ch;
+    padding-left: 10%;
+    left: -100%;
+    transition: left 0.3s;
+}
+
+.sidebar.open {
+    left: 0;
+}
+
+/* hamburger items */
+.hamburger {
+    font-size: 30px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 24px;
+}
+
+.hamburger .bar1,
+.hamburger .bar2,
+.hamburger .bar3 {
+  width: 30px;
+  height: 4px;
+  background-color: white;
+  transition: 0.4s;
+}
+
+.hamburger.open .bar1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.hamburger.open .bar2 {
+  opacity: 0;
+}
+
+.hamburger.open .bar3 {
+  transform: rotate(45deg) translate(-5px, -6px);
 }

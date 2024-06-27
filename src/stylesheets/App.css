@@ -4,8 +4,9 @@
 }
 
 .App-logo {
-  height: 5vmin;
+  height: 3ch;
   pointer-events: none;
+  padding: 0 0.5ch;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -48,14 +49,6 @@
 .Main-content {
   flex: 1;
   padding: 20px;
-}
-
-.Navbar-container {
-  /* #2b323f */
-  width: 200px;
-  background: #0B0B23;
-  display: flex;
-  flex-direction: column;
 }
 
 .Rusty-text {

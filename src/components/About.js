@@ -1,7 +1,7 @@
 import React from 'react';
 import '../stylesheets/Navbar.css';
 import '../stylesheets/App.css';
-import '../stylesheets/About.css'
+import '../stylesheets/About.css';
 
 const Contact = () => {
     return (
@@ -10,7 +10,7 @@ const Contact = () => {
             <h5 className="Rusty-text">About me</h5>
             <h1 className='silver-text'>Let me introduce myself</h1>
             <div className='about-me-paragraph'>
-              <img src='./Headshot.jpg' alt='headshot' className='headshot'></img>
+              <img src={`${process.env.PUBLIC_URL}/Headshot.jpg`} alt='headshot' className='headshot'></img>
               <p className='about-me-paragraph'>
                 I am a passionate and driven Computer Science student at Trinity University minoring in Data Science seeking software engineering roles.
                 My primary interests are IoT technology, Cloud Computing, Web Development, and App Development.
