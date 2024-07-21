@@ -1,30 +1,22 @@
 import React from 'react';
+import ContactBar from './shared/Contact-Bar';
+
 import '../stylesheets/Home.css';
 import '../stylesheets/App.css';
+import '../stylesheets/index.css';
 
 const Home = () => {
+    document.addEventListener('DOMContentLoaded', function() {
+      const typingElement = document.querySelector('.typing-animation');
+      typingElement.classList.add('start');
+    });
+
     return (
         <section id='home'>
           <div className="App-header">
-            <h1 className="rusty-header">Sam Cohen</h1>
-            <p>Software Engineer | Cloud Developer Associate | Data Analyst</p>
-            <ul className='contact-bar'>
-              <li>
-                <a href='https://github.com/scohen-trinity'>
-                  <i className='fa fa-github'></i>
-                </a>
-              </li>
-              <li>
-                <a href='https://www.linkedin.com/in/samuel-cohen-a82434251'>
-                  <i className="fa-brands fa-linkedin"></i>
-                </a>
-              </li>
-              <li>
-                <a href='mailto:scohencs@gmail.com'>
-                  <i className="fa-solid fa-envelope"></i>
-                </a>
-              </li>
-            </ul>
+            <h1 className="rusty-header typing-animation">Sam Cohen</h1>
+            <p className='typing-animation'>Software Engineer | Cloud Developer Associate | Data Analyst</p>
+            <ContactBar />
           </div>
         </section>
     );

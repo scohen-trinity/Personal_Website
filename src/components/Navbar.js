@@ -11,18 +11,24 @@ const Navbar = () => {
     const [navOpen, setNavOpen] = useState(false);
 
     const toggleNav = () => {
-        console.log('clicked');
         setNavOpen(!navOpen);
     };
+
+    const sectionsList = [
+        { section: 'home', text: 'Home' },
+        { section: 'about', text: 'About Me' },
+        { section: 'experience', text: 'Experience' },
+        { section: 'projects', text: 'Projects' },
+        { section: 'contact', text: 'Contact Me' },
+    ];
+
     return (
         <div className='sidebar-container'>
             <div className={`sidebar ${navOpen ? 'open' : ''}`}>
                 <ul className='sections-container'>
-                    <li onClick={() => scrollToSection('home')}>Home</li>
-                    <li onClick={() => scrollToSection('about')}>About Me</li>
-                    <li onClick={() => scrollToSection('experience')}>Experience</li>
-                    <li onClick={() => scrollToSection('projects')}>Projects</li>
-                    <li onClick={() => scrollToSection('contact')}>Contact Me</li>
+                    {sectionsList.map(section => (
+                        <li onClick={() => scrollToSection(section.section)}>{ section.text }</li>
+                    ))}
                 </ul>
             </div>
             <div className={`hamburger ${navOpen ? 'open' : ''}`} onClick={toggleNav}>
