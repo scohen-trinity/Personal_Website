@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/scohen-webpage/static/css/main.072af981.css",
-    "main.js": "/scohen-webpage/static/js/main.f4c9cb16.js",
+    "main.css": "/scohen-webpage/static/css/main.198f4920.css",
+    "main.js": "/scohen-webpage/static/js/main.e3b285d2.js",
     "static/js/453.253ccfac.chunk.js": "/scohen-webpage/static/js/453.253ccfac.chunk.js",
     "index.html": "/scohen-webpage/index.html",
-    "main.072af981.css.map": "/scohen-webpage/static/css/main.072af981.css.map",
-    "main.f4c9cb16.js.map": "/scohen-webpage/static/js/main.f4c9cb16.js.map",
+    "main.198f4920.css.map": "/scohen-webpage/static/css/main.198f4920.css.map",
+    "main.e3b285d2.js.map": "/scohen-webpage/static/js/main.e3b285d2.js.map",
     "453.253ccfac.chunk.js.map": "/scohen-webpage/static/js/453.253ccfac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.072af981.css",
-    "static/js/main.f4c9cb16.js"
+    "static/css/main.198f4920.css",
+    "static/js/main.e3b285d2.js"
   ]
 }
