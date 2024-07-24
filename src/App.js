@@ -10,7 +10,7 @@ import Experience from './components/Experience';
 function App() {
   return (
     <div className="App">
-      <Navbar className='sidebar' />
+      <Navbar />
       <div className='Content-container'>
         <Home />
         <About />

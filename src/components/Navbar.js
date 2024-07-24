@@ -8,33 +8,41 @@ function scrollToSection(sectionId) {
 }
 
 const Navbar = () => {
-    const [navOpen, setNavOpen] = useState(false);
+    const [isSidebarOpen, setSidebarOpen] = useState(false);
 
-    const toggleNav = () => {
-        setNavOpen(!navOpen);
+    const openSidebar = () => {
+        setSidebarOpen(true);
+    };
+
+    const closeSidebar = () => {
+        setSidebarOpen(false);
     };
 
     const sectionsList = [
-        { section: 'home', text: 'Home' },
-        { section: 'about', text: 'About Me' },
-        { section: 'experience', text: 'Experience' },
-        { section: 'projects', text: 'Projects' },
-        { section: 'contact', text: 'Contact Me' },
+        { section: 'home', text: 'Home', icon: 'fa-solid fa-house-laptop' },
+        { section: 'about', text: 'About Me', icon: 'fa-solid fa-address-card' },
+        { section: 'experience', text: 'Experience', icon: 'fa-solid fa-briefcase' },
+        { section: 'projects', text: 'Projects', icon: 'fa-solid fa-code' },
+        { section: 'contact', text: 'Contact Me', icon: 'fa-solid fa-address-book' },
     ];
 
     return (
-        <div className='sidebar-container'>
-            <div className={`sidebar ${navOpen ? 'open' : ''}`}>
-                <ul className='sections-container'>
-                    {sectionsList.map(section => (
-                        <li onClick={() => scrollToSection(section.section)}>{ section.text }</li>
-                    ))}
-                </ul>
-            </div>
-            <div className={`hamburger ${navOpen ? 'open' : ''}`} onClick={toggleNav}>
-                <div className='bar1'></div>
-                <div className='bar2'></div>
-                <div className='bar3'></div>
+        <div>
+            <button className='open-button' onClick={openSidebar}><i className="fas fa-bars"></i></button>
+            <div className={`sidebar ${isSidebarOpen ? 'open' : ''}`}>
+                <div className='sidebar-content'>
+                    <button className='close-button' onClick={closeSidebar}><i className="fas fa-times"></i></button>
+                    <nav>
+                        <ul className='sections-container'>
+                            {sectionsList.map(section => (
+                                <li key={section.section} className='section-item' onClick={() => scrollToSection(section.section)}>
+                                    <i className={section.icon}></i>
+                                    { section.text }
+                                </li>
+                            ))}
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </div>
     );

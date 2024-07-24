@@ -1,83 +1,84 @@
-/* sections container */
-.sections-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    list-style: none;
-    width: 100%;
-    margin: 0;
-    padding: 0;
+/* src/stylesheets/Navbar.css */
+.open-button {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  color: #7b838d;
+  border: 1px solid #7b838d;
+  background-color: #050517;
+  padding: 7px 10px;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  z-index: 999;
 }
 
-/* section li behavior */
-.sections-container li {
-    padding: 1ch;
-    color:#EFC88B;
-    transition: transform 0.3s ease;
-    margin: 0;
-}    
-
-.sections-container li:hover {
-    color: #CF5C36;
-    transform: translateX(10px);
-}
-
-/* sidebar container */
-.sidebar-container {
-    display: flex;
-    flex-direction: column;
+.open-button i {
+  font-size: 15px;
 }
 
 .sidebar {
-    width: 80%;
-    height: 100%;
-    position: fixed;
-    top: 2ch;
-    padding-left: 10%;
-    left: -100%;
-    transition: left 0.3s;
+  position: fixed;
+  top: 0;
+  left: -255px;
+  width: 250px;
+  height: 100%;
+  background-color: #161b22;
+  color: white;
+  transition: left 0.3s ease;
+  z-index: 1000;
+  border: 2px solid #2a3037;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 }
 
 .sidebar.open {
-    left: 0;
+  left: 0;
 }
 
-/* hamburger items */
-.hamburger {
-    font-size: 30px;
-    cursor: pointer;
-    background: none;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    position: fixed;
-    top: 15px;
-    left: 15px;
-    z-index: 1000;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 30px;
-    height: 24px;
+.sidebar-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
-.hamburger .bar1,
-.hamburger .bar2,
-.hamburger .bar3 {
-  width: 30px;
-  height: 4px;
-  background-color: white;
-  transition: 0.4s;
+.close-button {
+  background: none;
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  margin: 1rem;
+  cursor: pointer;
+  align-self: flex-end;
 }
 
-.hamburger.open .bar1 {
-  transform: rotate(-45deg) translate(-5px, 6px);
+.close-button i {
+  font-size: 24px;
 }
 
-.hamburger.open .bar2 {
-  opacity: 0;
+.close-button:hover {
+  background-color: #2a3037;
 }
 
-.hamburger.open .bar3 {
-  transform: rotate(45deg) translate(-5px, -6px);
+.sections-container {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.sections-container li {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 1rem;
+}
+
+.sections-container li:hover {
+  background-color: #555;
+}
+
+.section-item {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
 }
